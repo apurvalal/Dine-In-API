@@ -1,10 +1,8 @@
-from email import message
 import json
 from flask import Flask, request, jsonify;
 from flask_pymongo import PyMongo;
 from bson.objectid import ObjectId;
 from bson import json_util;
-import socket;
 import random;
 from src.services.menu_service import MenuService;
 
