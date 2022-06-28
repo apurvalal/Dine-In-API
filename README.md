@@ -38,7 +38,9 @@ The aim of this API is to provide a simple way to manage orders.
 - Server stores the order in an orders table
 - The customer can then request for bill after having their meal
 - Server responds with the total price of the order in the form of a bill
-- The order can then be removed from the orders table## Endpoints
+- The order can then be removed from the orders table
+
+## Endpoints
 - /api/token: Generates a random token and adds it to the database
 - [POST] /api/order: Adds an order to the database
 - [GET] /api/order: Returns all the orders in the database
